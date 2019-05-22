@@ -62,7 +62,7 @@ public class UsuarioDAO {
             ResultSet resultados = st.executeQuery(sql);
 
             while (resultados.next()) {
-                int id = resultados.getInt("id_usuario");
+                int idUsuario = resultados.getInt("id_usuario");
                 String nombre = resultados.getString("nombre");
 
             }
