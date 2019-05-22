@@ -67,7 +67,7 @@ public class UsuarioDAO {
 
             }
             accesoBD.close();
-            return c;
+            return u;
         } catch (Exception e) {
             System.out.println();
             System.out.println("Error al obtener");
@@ -76,3 +76,4 @@ public class UsuarioDAO {
         }
 
     }
+}
