@@ -50,7 +50,7 @@ public class UsuarioDAO {
 
     }
 
-    public Usuario getCuentaByID(int id) {
+    public Usuario getUsuarioByID(int id) {
 
         Connection accesoBD = con.getConexion();
 
